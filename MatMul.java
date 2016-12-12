@@ -1,10 +1,9 @@
 // This is sample program for matrix multiplication
 // The complexity of the algorithm is O(n^3)
-package com.sanfoundry.numerical;
  
 import java.util.Scanner;
  
-public class MatixMultiplication
+public class MatMul
 {
     public static void main(String args[])
     {
