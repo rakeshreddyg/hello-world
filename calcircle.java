@@ -19,7 +19,9 @@ public class calcircle {
                 {
                         //get the radius from console
                         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-                   
+                        System.out.println("Invalid radius value" + br.readLine());
+                        radius = Integer.parseInt(br.readLine());
+                        System.out.println("Invalid radius value" + radius);
                 }
                 //if invalid value was entered
                 catch(NumberFormatException ne)
@@ -38,7 +40,7 @@ public class calcircle {
                  * pi * r * r
                  * where r is a radius of a circle.
                  */
-                    radius = Integer.parseInt(br.readLine());
+              
                 //NOTE : use Math.PI constant to get value of pi
                 double area = Math.PI * radius * radius;
                
