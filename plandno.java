@@ -1,6 +1,6 @@
 import java.util.*;
  
-class Palindrome
+class plandno
 {
   public static void main(String args[])
   {
