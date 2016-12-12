@@ -14,15 +14,16 @@ public class calcircle {
                
                 int radius = 0;
                 System.out.println("Please enter radius of a circle");
-               
-                try
+               System.out.println("Invalid radius value" + args[0]);
+                radius = radius = Integer.parseInt(args[0]);
+                /*try
                 {
                         //get the radius from console
                         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
                         System.out.println("Invalid radius value" + br.readLine());
                         radius = Integer.parseInt(br.readLine());
                         System.out.println("Invalid radius value" + radius);
-                }
+                }*/
                 //if invalid value was entered
                 catch(NumberFormatException ne)
                 {
